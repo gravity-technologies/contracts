@@ -1,7 +1,7 @@
 # GRVT Exchange Smart Contract
 
 
-This work remains under exclusive copyright of GRVT and is not licensed for use by others. License terms may change later. This code has been made public right now for collaboration purposes only.
+**Important Note:** This work remains under exclusive copyright of GRVT. Check [LICENSE.md](https://github.com/gravity-technologies/contracts/edit/master/LICENSE.md] for more details. This code has been made public right now for collaboration purposes only.
  
 
 ## Project Layout
