@@ -5,6 +5,7 @@
 ## Issue 1
 
 Problem: Contract size is too big
+
 How to replcate: Run `yarn install && yarn compile && yarn deploy`
 
 ## Issue 2
