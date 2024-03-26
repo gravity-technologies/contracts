@@ -12,7 +12,7 @@ import "@matterlabs/hardhat-zksync-upgradable"
 
 import { HardhatUserConfig } from "hardhat/config"
 const config: HardhatUserConfig = {
-  defaultNetwork: "grvtDev",
+  defaultNetwork: "grvtTestnet",
   networks: {
     zkSyncSepoliaTestnet: {
       url: "https://sepolia.era.zksync.dev",
@@ -45,10 +45,11 @@ const config: HardhatUserConfig = {
       chainId: 260, // found using era_test_node run
     },
     grvtTestnet: {
-      url: "https://zkstack.testnet.grvt.internal",
-      ethNetwork: "http://zkstack.testnet.internal:8545",
+      url: "https://zkrpc.testnet.grvt.io",
+      ethNetwork: "https://eth.testnet.grvt.io",
       zksync: true,
       chainId: 270,
+      verifyURL: "https://verifier.testnet.grvt.io/contract_verification",
     },
     grvtDev: {
       url: "http://zkstack.dev.grvt.internal",

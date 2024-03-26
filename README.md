@@ -13,10 +13,11 @@ Contract Verification: Relies on #1 being solved but you can try deploy any cont
 
 ```
   grvtTestnet: {
-      url: "https://zkstack.testnet.grvt.internal",
-      ethNetwork: "http://zkstack.testnet.internal:8545",
+      url: "https://zkrpc.testnet.grvt.io",
+      ethNetwork: "https://eth.testnet.grvt.io",
       zksync: true,
       chainId: 270,
+      verifyURL: "https://verifier.testnet.grvt.io/contract_verification",
     }
 ```
 
