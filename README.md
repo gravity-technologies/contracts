@@ -1,8 +1,24 @@
 # GRVT Exchange Smart Contract
 
-
 **Important Note:** This work remains under exclusive copyright of GRVT. Check [terms](https://github.com/gravity-technologies/contracts/blob/master/LICENSE.md) for more details. This code has been made public right now for collaboration purposes only.
- 
+
+## Issue 1
+
+Problem: Contract size is too big
+How to replcate: Run `yarn install && yarn compile && yarn deploy`
+
+## Issue 2
+
+Contract Verification: Relies on #1 being solved but you can try deploy any contract using the following hardhat configs and deploying it in our testnet.
+
+```
+  grvtTestnet: {
+      url: "https://zkstack.testnet.grvt.internal",
+      ethNetwork: "http://zkstack.testnet.internal:8545",
+      zksync: true,
+      chainId: 270,
+    }
+```
 
 ## Project Layout
 
